@@ -1,3 +1,5 @@
+Website: http://my-portfolio-by-jeff.s3-website.us-east-2.amazonaws.com/
+
 ## Deployment
 
 <!-- S3 bucket static website hosting -->
@@ -18,7 +20,13 @@
 
 ## CI/CD
 
-AWS action for github action. https://github.com/aws-actions
+Github Actions. https://docs.github.com/en/actions
+AWS Actions https://github.com/aws-actions
 
 1. setup aws credentials
-2. deploy build to S3 bucket
+2. deploy/upload build to S3 bucket
+
+## Bootstrap
+
+Source: https://github.com/react-bootstrap/react-bootstrap
+Documentation: https://react-bootstrap.github.io

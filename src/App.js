@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Navbar, Container, Stack } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Intro from "./components/Intro";
+import Project from "./components/Project";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Navbar bg="white" expand="lg">
+          <Navbar.Brand>Jeff Ou</Navbar.Brand>
+          {/* <Nav className="me-auto">
+            <NavDropdown title=" " id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">My Blog</NavDropdown.Item>
+            </NavDropdown>
+          </Nav> */}
+        </Navbar>
+        <Stack gap={5}>
+          <Intro></Intro>
+          <Project></Project>
+          <Project></Project>
+          <Project></Project>
+          <Project></Project>
+        </Stack>
+      </Container>
     </div>
   );
 }
