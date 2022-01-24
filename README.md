@@ -17,3 +17,8 @@
 12. visit your webiste
 
 ## CI/CD
+
+AWS action for github action. https://github.com/aws-actions
+
+1. setup aws credentials
+2. deploy build to S3 bucket
