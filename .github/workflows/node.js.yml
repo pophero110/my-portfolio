@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: yarn build
-      - run: yarn test\
+      - run: yarn test
 
   deploy:
     runs-on: ubuntu-latest
