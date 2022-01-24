@@ -28,14 +28,4 @@ jobs:
       - run: yarn build
       - run: yarn test
 
-  deploy:
-    runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
-      - name: setup aws credentials
-      - run: cat \<< EOF > ~/.aws/credentials
-          aws_access_key_id = ${{secrets.AWS_ACCESS_KEY}}
-          aws_secret_access_key = ${{secrets.AWS_SECRET_KEY}}
-          EOF
-      - run: yarn deploy
