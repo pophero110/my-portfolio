@@ -20,7 +20,7 @@ Website: http://my-portfolio-by-jeff.s3-website.us-east-2.amazonaws.com/
 
 ## CI/CD
 
-Github Actions. https://docs.github.com/en/actions
+Github Actions. https://docs.github.com/en/actions  
 AWS Actions https://github.com/aws-actions
 
 1. setup aws credentials
@@ -28,5 +28,5 @@ AWS Actions https://github.com/aws-actions
 
 ## Bootstrap
 
-Source: https://github.com/react-bootstrap/react-bootstrap
+Source: https://github.com/react-bootstrap/react-bootstrap  
 Documentation: https://react-bootstrap.github.io
