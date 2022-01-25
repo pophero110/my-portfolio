@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Intro from "./components/Intro";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,8 +18,9 @@ function App() {
         </Navbar>
         <Stack gap={5}>
           <Intro></Intro>
-          <Project name="Frontend"></Project>
-          <Project name="Backend"></Project>
+          <Project name="Static Web"></Project>
+          <Project name="Full Stack Web Application"></Project>
+          <Footer></Footer>
         </Stack>
       </Container>
     </div>

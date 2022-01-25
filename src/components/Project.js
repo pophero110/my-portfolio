@@ -7,7 +7,7 @@ function Project(props) {
   let nexterLink = "https://nexter666.herokuapp.com/index.html";
   let trelloLink = "https://trello666.herokuapp.com/";
   let cards;
-  if (props.name === "Frontend") {
+  if (props.name === "Static Web") {
     cards = [
       ["Natour", natourImg, natourLink],
       ["Nexter", nexterImg, nexterLink],
@@ -24,7 +24,20 @@ function Project(props) {
       </Card>
     ));
   } else {
-    cards = <div>backend</div>;
+    cards = [
+      ["Frontend", natourImg, natourLink],
+      ["Backend", nexterImg, nexterLink],
+    ].map((project) => (
+      <Card bg="light">
+        <Card.Img variant="bottom" src={project[1]} />
+        <Card.Body>
+          <Card.Title className="text-center">{project[0]}</Card.Title>
+        </Card.Body>
+        <Button href={project[2]} variant="outline-secondary" target="_blank">
+          View
+        </Button>
+      </Card>
+    ));
   }
 
   return (
