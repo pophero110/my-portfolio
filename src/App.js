@@ -10,11 +10,6 @@ function App() {
       <Container>
         <Navbar bg="white" expand="lg">
           <Navbar.Brand>Jeff Ou</Navbar.Brand>
-          {/* <Nav className="me-auto">
-            <NavDropdown title=" " id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">My Blog</NavDropdown.Item>
-            </NavDropdown>
-          </Nav> */}
         </Navbar>
         <Stack gap={5}>
           <Intro></Intro>
