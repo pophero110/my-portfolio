@@ -7,7 +7,7 @@ function Project(props) {
   let nexterLink = "https://nexter666.herokuapp.com/index.html";
   let trelloLink = "https://trello666.herokuapp.com/";
   let cards;
-  if (props.name == "Frontend") {
+  if (props.name === "Frontend") {
     cards = [
       ["Natour", natourImg, natourLink],
       ["Nexter", nexterImg, nexterLink],
