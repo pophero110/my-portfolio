@@ -17,10 +17,8 @@ function App() {
         </Navbar>
         <Stack gap={5}>
           <Intro></Intro>
-          <Project></Project>
-          <Project></Project>
-          <Project></Project>
-          <Project></Project>
+          <Project name="Frontend"></Project>
+          <Project name="Backend"></Project>
         </Stack>
       </Container>
     </div>
