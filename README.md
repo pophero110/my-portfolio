@@ -14,9 +14,10 @@ Website: http://my-portfolio-by-jeff.s3-website.us-east-2.amazonaws.com/
 7. edit bucket permission and bucket policy to allow public read access to the static website
 8. run 'yarn install'
 9. run 'yarn build'
-10. add "deploy": "aws s3 sync build/ s3://your-bucket-name under the script secion of package.json
-11. run 'yarn deploy'
-12. visit your webiste
+10. add github repository secrets for aws credentialas 
+11. add "deploy": "aws s3 sync build/ s3://your-bucket-name under the script secion of package.json
+12. run 'yarn deploy'
+13. visit your webiste
 
 ## CI/CD
 
